@@ -115,6 +115,7 @@ sudo rm -f web_files.zip
 
 #ensure permissions are correct so user can change config file via the web
 sudo chmod a+w sensor_config.php
+sudo chmod a+w pwd.php
 
 cd /home/pi/phidgets
 sudo wget https://raw.githubusercontent.com/ungrinlab/monitor/master/monitoringsystem.py
